@@ -1,17 +1,24 @@
 .wrapper {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://warningzone.com/wp-content/uploads/2020/10/menu-wnz.jpg');
 }
 
 .container {
     display: flex;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .content {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }

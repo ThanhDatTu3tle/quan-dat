@@ -5,7 +5,7 @@ import styles from './Home.module.scss';
 
 const cx = classNames.bind(styles)
 
-const Home: React.FC<any> = () => {
+const ButtonTitle: React.FC<any> = () => {
     return (
         <div className={cx('wrapper')}>
             
@@ -13,4 +13,4 @@ const Home: React.FC<any> = () => {
     )
 }
 
-export default Home;
+export default ButtonTitle;
