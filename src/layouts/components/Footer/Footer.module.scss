@@ -1,0 +1,115 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background-color: #141414;
+    color: #ffffff;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        width: 55%;
+        height: 100%;
+
+        .subscribe-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 10px 10px;
+            padding: 10px 10px;
+            width: 60%;
+
+            .logo {
+                display: flex;
+                align-items: flex-start;
+                justify-content: start;
+                width: 100%;
+            
+                .logo-background {
+                    width: fit-content;
+                    height: fit-content;
+                    padding: 5px;
+                    background-color: #000000;
+                    
+                    .logo-text {
+                        font-size: 20px;
+                        font-weight: 900;
+                        color: #FFBA00;
+                    }
+                }
+            }
+        }
+
+        .right-content {
+            display: flex;
+            flex-direction: row;
+            width: 150%;
+            margin: 10px 10px;
+            padding: 10px 10px;
+            
+            .more-info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 10px;
+                padding: 0 10px
+            }
+
+            .support {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 10px;
+                padding: 0 10px;
+                width: 80%;
+            }
+
+            .subscribe-form {
+                display: flex;
+                align-items: flex-start;
+                justify-content: start;
+                width: 80%;
+                height: 40px;
+                margin-left: 0px;
+                color: #FFBA00;
+                border: 1px solid #FFBA00;
+            }
+        }
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+        background: #000000;
+
+        .copyright-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 53%;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-right: 70px;
+            width: 20%;
+
+            .icon {
+                padding: 20px;
+            }
+        }
+    }
+}
