@@ -11,24 +11,74 @@ const Menu: React.FC<any> = () => {
     const categories = [
         {
             'name': 'QUAN DAT SIGNATURE',
+            'foods': [
+                {
+                    'stt': 1,
+                    'name': 'Bò Quan Dat',
+                    'price': '215,000vnd'
+                },
+                {
+                    'stt': 2,
+                    'name': 'Tôm Sống Quan Dat',
+                    'price': '155,000vnd'
+                },
+                {
+                    'stt': 3,
+                    'name': 'Dồi Sả Quan Dat',
+                    'price': '190,000vnd'
+                },
+                {
+                    'stt': 4,
+                    'name': 'Ếch Núp Rơm',
+                    'price': '175,000vnd'
+                },
+                {
+                    'stt': 5,
+                    'name': 'Bò Quan Dat',
+                    'price': '140,000vnd'
+                },
+                {
+                    'stt': 6,
+                    'name': 'Cơm Chiên Dưa Bò',
+                    'price': '155,000vnd'
+                }
+            ]
         },
         {
             'name': 'MEAT IS GREAT',
+            'foods': [
+                
+            ]
         },
         {
             'name': 'SNACK FOR MORE',
+            'foods': [
+                
+            ]
         },
         {
             'name': 'HOTPOT, FRIED RICE & NOODLES',
+            'foods': [
+                
+            ]
         },
         {
             'name': 'GRILL FOR THRILLS',
+            'foods': [
+                
+            ]
         },
         {
             'name': 'GREEN FOR LIFE',
+            'foods': [
+                
+            ]
         },
         {
             'name': 'HELL YEAH, SNAIL',
+            'foods': [
+                
+            ]
         }
     ]
 

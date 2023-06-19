@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
             <div className={cx('container')}>
                 <div className={cx('subscribe-form')}>
                     <div className={cx('logo')}>
-                        <Link to={config.routes.home}>
+                        {/* <Link to={config.routes.home}> */}
                             <div className={cx('logo-background')}>
                                 <p className={cx('logo-text')}>QUAN DAT</p>
                             </div>
-                        </Link>
+                        {/* </Link> */}
                     </div>
                     <br />
                     <p>CÔNG TY CỔ PHẦN QUAN DAT</p>

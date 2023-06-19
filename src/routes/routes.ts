@@ -4,11 +4,11 @@ import config from "../config";
 import { MainLayout } from "../layouts/MainLayout";
 
 // Pages
-import Home from "../pages/Home";
+// import Home from "../pages/Home";
 import Menu from "../pages/Menu";
 
 const publicRoutes = [
-    { path: config.routes.home, component: Home, layout: MainLayout },
+    // { path: config.routes.home, component: Home, layout: MainLayout },
     { path: config.routes.menu, component: Menu, layout: MainLayout },
 ]
   
